@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ### Deletar uma tarefa específica por ID
-DELETE http://localhost:3000/api/tarefas/{id}
+DELETE http://localhost:3000/api/tarefas/66e9cec7d9bc3bc02edd22b4
