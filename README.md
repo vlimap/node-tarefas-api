@@ -114,9 +114,8 @@ Content-Type: application/json
 DELETE http://localhost:3000/tarefas/{id}
 ```
 
-10. Contribuindo
-
+## Contribuindo
 Se você quiser contribuir para este projeto, sinta-se à vontade para fazer um fork do repositório, criar uma branch com suas alterações e enviar um pull request. Certifique-se de que seus commits são claros e descritivos.
 
-11. Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
