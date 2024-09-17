@@ -1,6 +1,5 @@
-import Tarefa from '../models/Tarefa.js'; // Corrija o caminho e a extensão do arquivo
+import Tarefa from '../models/Tarefa.js'; 
 
-// Funções de controlador
 export const criarTarefa = async (req, res) => {
   try {
     const novaTarefa = new Tarefa(req.body);

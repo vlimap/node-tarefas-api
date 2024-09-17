@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-// Usar as rotas definidas em routes.js
+// rotas definidas em routes.js
 app.use('/api', routes);
 
 export default app;

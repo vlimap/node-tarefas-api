@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import moment from 'moment-timezone';
 
-// fuso horario pertinente aqui de Natal Recife
+// fuso horario Recife
 const timezone = 'America/Recife';
 
 const tarefaSchema = new mongoose.Schema({
@@ -55,12 +55,12 @@ const tarefaSchema = new mongoose.Schema({
   }
 });
 
-// Função de validação para o campo responsaveis
+// validação para o campo responsaveis
 function arrayLimit(val) {
   return val.length > 0;
 }
 
-// Middleware para atualizar o campo atualizadoEm antes de salvar
+// atualizar o campo atualizadoEm antes de salvar
 tarefaSchema.pre('save', function (next) {
   this.atualizadoEm = moment().tz(timezone).toDate();
   next();
