@@ -85,13 +85,17 @@ Content-Type: application/json
 
 ```bash
 GET http://localhost:3000/tarefas
-Obter uma tarefa específica por ID
-http
-Copiar código
+```
+
+7. Obter uma tarefa específica por ID
+
+```bash
 GET http://localhost:3000/tarefas/{id}
-Atualizar uma tarefa específica por ID
-http
-Copiar código
+```
+
+8. Atualizar uma tarefa específica por ID
+
+```bash
 PUT http://localhost:3000/tarefas/{id}
 Content-Type: application/json
 
@@ -104,14 +108,14 @@ Content-Type: application/json
 }
 
 ```
-7. Deletar uma tarefa específica por ID
+9. Deletar uma tarefa específica por ID
 
 ```bash
 DELETE http://localhost:3000/tarefas/{id}
 ```
 
-8. Contribuindo
+10. Contribuindo
 Se você quiser contribuir para este projeto, sinta-se à vontade para fazer um fork do repositório, criar uma branch com suas alterações e enviar um pull request. Certifique-se de que seus commits são claros e descritivos.
 
-9. Licença
+11. Licença
 Este projeto está licenciado sob a MIT License.
