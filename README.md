@@ -66,8 +66,8 @@ PORT=3000
 npm run dev
 ```
 
-5. Endpoints da API
-Criar uma nova tarefa
+# Endpoints da API
+## Criar uma nova tarefa
 
 ```bash
 POST http://localhost:3000/tarefas
