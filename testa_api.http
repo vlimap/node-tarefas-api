@@ -1,0 +1,32 @@
+### Criar uma nova tarefa
+POST http://localhost:3000/api/tarefas
+Content-Type: application/json
+
+{
+  "titulo": "Nova Tarefa",
+  "descricao": "Descrição da nova tarefa",
+  "prioridade": "Média",
+  "data": "2024-10-01T00:00:00Z",
+  "responsaveis": ["João", "Maria"]
+}
+
+### Listar todas as tarefas
+GET http://localhost:3000/api/tarefas
+
+### Obter uma tarefa específica por ID
+GET http://localhost:3000/api/tarefas/{id}
+
+### Atualizar uma tarefa específica por ID
+PUT http://localhost:3000/api/tarefas/{id}
+Content-Type: application/json
+
+{
+  "titulo": "Tarefa Atualizada",
+  "descricao": "Descrição atualizada da tarefa",
+  "prioridade": "Alta",
+  "data": "2024-10-05T00:00:00Z",
+  "responsaveis": ["João", "Ana"]
+}
+
+### Deletar uma tarefa específica por ID
+DELETE http://localhost:3000/api/tarefas/{id}
